@@ -118,3 +118,13 @@ footer {
   transform: translateX(-100%);
   padding-right: $unit;
 }
+
+.logo {
+  display: inline;
+  height: 32px;
+  margin: 0 (0.5 * $unit) 0 0;
+}
+
+.image-link:hover {
+  text-decoration: none;
+}

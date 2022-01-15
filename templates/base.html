@@ -32,7 +32,9 @@
   <body>
     <header>
       {% block header %}
-        <h1 id="sitetitle" class="sitetitle"><a href="{{config.base_url}}">{{config.title}}</a></h1>
+        <h1 id="sitetitle" class="sitetitle">
+          <a class="image-link" href="{{config.base_url}}"><img class="logo" alt="logo" src="/logo.png" /></a><a href="{{config.base_url}}">{{config.title}}</a>
+        </h1>
   
         <nav id="menu">
           {% block menu %}
